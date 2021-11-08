@@ -13,8 +13,9 @@ const HomePage = () => {
     <>
       <Head>
         <meta charSet="UTF-8" />
-        {/* <meta httpEquiv="X-UA-Compatible" content="IE=edge" /> */}
-        {/* <meta name="viewport" content="width=device-width, initial-scale=1.0" /> */}
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
         <meta
           name="description"
           content="I am Jibran Advani and I am a full stack developer looking to work as a freelancer to build different web projects."
@@ -23,10 +24,15 @@ const HomePage = () => {
           name="keywords"
           content="HTML, CSS, JavaScript, React, NextJS, NodeJS, ExpressJS"
         />
+
         <meta name="author" content="Jibran Advani" />
+
         <meta property="og:title" content="Jibran Advani | Resume" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.jibranadvani.com/profileImage.jpg" />
+        <meta
+          property="og:image"
+          content="https://www.jibranadvani.com/profileImage.jpg"
+        />
         <meta
           property="og:description"
           content="I am Jibran Advani and I am a full stack developer looking to work as a freelancer to build different web projects."
@@ -43,7 +49,7 @@ const HomePage = () => {
           content="http://www.jibranadvani.com/profileImage.jpg"
         />
         <meta name="twitter:creator" content="@advani_jibran" />
-        <link rel="icon" type="image/png" href="/favicon.png"></link>
+        
         <title>Jibran Advani | Resume</title>
       </Head>
       <Header />
