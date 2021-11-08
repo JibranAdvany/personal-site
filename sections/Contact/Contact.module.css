@@ -1,0 +1,23 @@
+.sectionContact {
+    background-color: var(--primary-color-3);
+}
+
+.sectionContact p {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sectionContact .email {
+    color: var(--secondary-color);
+    font-weight: 600;
+    margin-top: 3rem;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 37.5em) {
+ .sectionContact p {
+     width: 100%;
+ }
+}

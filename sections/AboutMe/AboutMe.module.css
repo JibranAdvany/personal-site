@@ -1,0 +1,85 @@
+.sectionAbout {
+  background-color: var(--color-white);
+}
+
+.meContainer {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 0;
+}
+
+.image {
+  flex: 0.3;
+  text-align: right;
+  padding: 0 8rem;
+}
+
+.image img {
+  border-radius: 50%;
+}
+
+.meHeading {
+  color: var(--secondary-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.content {
+  flex: 0.7;
+  padding: 2rem;
+}
+
+.status {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: .3rem solid var(--secondary-color);
+  padding-top: 3rem;
+}
+
+.status > div {
+  margin-right: 5rem;
+}
+
+.status p {
+  margin-bottom: 1rem;
+}
+
+.status span {
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 68.75em) {
+  .meContainer {
+    /* width: 100%; */
+    flex-direction: column;
+  }
+
+  .status {
+    display: block;
+  }
+
+  .status > div {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 43.75em) {
+  .meContainer {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .status {
+    width: 100%;
+  }
+}

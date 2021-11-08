@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  padding: 2rem 0;
+}
+
+.technology {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .technology:not(:first-child) {
+  margin-left: 5rem;
+} */
+
+.icon {
+  display: block;
+  font-size: 5rem;
+  align-self: center;
+  margin-bottom: 1rem;
+}
+
+.text {
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.html {
+  color: #e34c26;
+}
+
+.css {
+  color: #264de4;
+}
+
+.js {
+  color: #f0db4f;
+}
+
+.react {
+  color: #4c768d;
+}
+
+.sass {
+  color: #cc6699;
+}
+
+.node {
+  color: #3c873a;
+}
+
+.mongo {
+  color: #3fa037;
+}
+
+@media only screen and (max-width: 50em) {
+  .container {
+    justify-content: center;
+  }
+  
+  .technology {
+    margin-top: 2rem;
+  }
+
+  .technology:not(:last-child) {
+    margin-right: 5rem;
+  }
+}
