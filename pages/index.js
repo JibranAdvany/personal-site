@@ -7,6 +7,7 @@ import Education from "../sections/Education/Education";
 import Contact from "../sections/Contact/Contact";
 import Footer from "../sections/Footer/Footer";
 import Head from "next/head";
+import Navigation from "../components/Navigation/Navigation";
 
 const HomePage = () => {
   return (
@@ -52,12 +53,13 @@ const HomePage = () => {
         
         <title>Jibran Advani | Resume</title>
       </Head>
+      <Navigation />
       <Header />
       <main>
         <Technologies />
         <AboutMe />
-        <PortfolioHiglights />
         {/* <Education /> */}
+        <PortfolioHiglights />
         <Contact />
       </main>
       <Footer />

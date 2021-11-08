@@ -61,13 +61,14 @@
 @media only screen and (max-width: 50em) {
   .container {
     justify-content: center;
+    margin-top: 2rem;
   }
   
   .technology {
     margin-top: 2rem;
   }
 
-  .technology:not(:last-child) {
-    margin-right: 5rem;
+  .technology {
+    margin: 3rem 3rem 0 3rem;
   }
 }
