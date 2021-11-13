@@ -12,6 +12,47 @@ const PortfolioHiglights = () => {
         <h2 className="section-heading">Portfolio</h2>
 
         <div className={styles.projects}>
+          {/* SIDE PROGRAMMER */}
+          <div className={styles.project}>
+            <h3 className={styles.projectHeading}>Side Programmer</h3>
+            <p className={styles.projectDescription}>
+              This is the live blog that I have coded and currently maintaining.
+              The blog is about various tech topics which range from front-end
+              to back-end.
+            </p>
+            <h3 className={styles.projectTech}>Technologies used</h3>
+            <div className={styles.projectTechnologies}>
+              <small>Next JS</small>
+              <small>Tailwind CSS</small>
+              <small>Contentful CMS</small>
+            </div>
+            <div className={styles.actions}>
+              <a
+                href="https://github.com/JibranAdvany/personal-site"
+                target="_blank"
+                className={`${styles.btn} ${styles.githubBtn}`}
+              >
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  className={`${styles.github} ${styles.icon}`}
+                />{" "}
+                See Github
+              </a>
+
+              <a
+                href="https://www.sideprogrammer.com/"
+                target="_blank"
+                className={`${styles.btn} ${styles.liveBtn}`}
+              >
+                View Live &nbsp;
+                <FontAwesomeIcon
+                  icon={faExternalLinkAlt}
+                  className={`${styles.live} ${styles.icon}`}
+                />
+              </a>
+            </div>
+          </div>
+
           {/* NATOURS */}
           <div className={styles.project}>
             <h3 className={styles.projectHeading}>Natours</h3>
@@ -139,7 +180,9 @@ const PortfolioHiglights = () => {
           <div className={styles.project}>
             <h3 className={styles.projectHeading}>Picture in Picture</h3>
             <p className={styles.projectDescription}>
-              This project is built in order to learn how to understand the picture in picture API of the browser. This project only works on chrome.
+              This project is built in order to learn how to understand the
+              picture in picture API of the browser. This project only works on
+              chrome.
             </p>
             <h3 className={styles.projectTech}>Technologies used</h3>
             <div className={styles.projectTechnologies}>
